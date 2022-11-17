@@ -1,16 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const title = 'My Astro Blog';
-const description = 'The perfect starter for your perfect blog.';
+const title = 'Wordley Blog';
+const description = 'Hopefully not just a bunch of waffle.';
 const permalink = Astro.site.href;
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="home-container">
     <div class="home-copy">
-      <h1>Welcome to your new Astro Blog</h1>
-      <p>Check out the docs on <a href="https://www.github.com/Charca/astro-blog-template" target="_blank" rel="noopener">GitHub</a> to get started.</p>
+      <h1>Welcome to the Adam Worleys <a href="/blog">Wordley Blog</a></h1>
+      <!-- <p>Check out the docs on <a href="https://www.github.com/Charca/astro-blog-template" target="_blank" rel="noopener">GitHub</a> to get started.</p> -->
     </div>
 
     <div class="hero-image-container">
@@ -64,7 +64,7 @@ const permalink = Astro.site.href;
   }
 
   .caption {
-    font-size: .8em;
+    font-size: 0.9em;
     font-style: italic;
     text-align: left;
   }
