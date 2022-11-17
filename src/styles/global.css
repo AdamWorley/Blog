@@ -1,0 +1,148 @@
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
+
+:root {
+  --clr-body-gb: hsl(0, 0%, 100%);
+  --clr-text: hsl(0, 0%, 27%);
+  --clr-a: hsl(217, 71%, 53%);
+  --clr-b: hsl(0, 0%, 13%) 222;
+  --clr-blockquote-border: rgb(255, 212, 212);
+  --clr-code-bg: #f2f2f2;
+}
+
+:root:has(#theme-checkbox:checked) {
+  --clr-body-gb: hsl(222, 25%, 10%);
+  --clr-a: hsl(33, 90%, 65%);
+  --clr-b: hsl(0, 0%, 77%);
+  --clr-text: hsl(60, 100%, 93%);
+  --clr-blockquote-border: rgb(255, 212, 212);
+  --clr-code-bg: #2e1313;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  padding: 20px;
+  max-width: 65ch;
+  text-align: left;
+  background-color: var(--clr-body-gb);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: var(--clr-text);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  color: var(--clr-b);
+}
+a {
+  color: var(--clr-a);
+}
+nav a {
+  margin-right: 10px;
+}
+textarea {
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  font-size: 16px;
+}
+content {
+  line-height: 1.6;
+}
+table {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+code {
+  padding: 2px 5px;
+  background-color: var(--clr-code-bg);
+}
+pre {
+  padding: 1rem;
+}
+pre > code {
+  all: unset;
+}
+blockquote {
+  border: 1px solid var(--clr-blockquote-border);
+  color: #222;
+  padding: 2px 0px 2px 20px;
+  margin: 0px;
+  font-style: italic;
+}
+
+.theme-toggle input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.theme-toggle *,
+.theme-toggle ::after,
+.theme-toggle ::before {
+  box-sizing: border-box;
+}
+
+/* The switch - the box around the slider */
+.theme-toggle .switch {
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+  display: inline-block;
+}
+
+/* The slider */
+.theme-toggle .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f5;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.theme-toggle .slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+  transition: 0.4s;
+}
+
+.theme-toggle input:checked + .slider {
+  background-color: #303136;
+}
+
+.theme-toggle input:checked + .slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}

@@ -1,0 +1,41 @@
+---
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} Adam Worley. All rights reserved.
+</footer>
+<style>
+	footer {
+		padding: 25px;
+		text-align: center;
+	}
+</style>
+<script>
+	const themeSelector = document.getElementById('theme-checkbox') as HTMLInputElement; 
+
+	themeSelector.addEventListener("click", () => {
+		storeTheme(themeSelector.checked);
+		// fallback for no :has() support
+		// document.documentElement.className = themeOption.id;
+	});
+
+
+	
+
+	// set theme when visitor returns
+	const setTheme = function () {
+		
+		const darkModeEnabled = localStorage.getItem("darkModeEnabled") === 'true';
+		
+		themeSelector.checked = darkModeEnabled;
+	};
+	
+
+	// store theme
+	const storeTheme = (theme: boolean) =>  {
+		localStorage.setItem("darkModeEnabled", String(theme));
+	};
+
+	window.onload = () => setTheme();
+</script>
