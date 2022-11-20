@@ -4,8 +4,11 @@
 
   let darkModeEnabled = false;
 
-  if (typeof localStorage !== "undefined" && localStorage.getItem("darkModeEnabled")) {
-    darkModeEnabled = localStorage.getItem("darkModeEnabled");
+  if (
+    typeof localStorage !== "undefined" &&
+    localStorage.getItem("darkModeEnabled")
+  ) {
+    darkModeEnabled = localStorage.getItem("darkModeEnabled") === "true";
   } else if (
     typeof window !== "undefined" &&
     window.matchMedia("(prefers-color-scheme: dark)").matches
