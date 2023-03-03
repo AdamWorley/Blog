@@ -1,7 +1,7 @@
 ---
 title: Pomodoro Technique
 publishDate: 3 March 2023
-description: Every blog starts with a single post. This is yours. Make it great.
+description: The Pomodoro technique is a time management method that can help you be more productive and focused.
 draft: false
 ---
 
