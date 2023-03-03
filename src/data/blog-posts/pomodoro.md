@@ -2,7 +2,7 @@
 title: Pomodoro Technique
 publishDate: 3 March 2023
 description: Every blog starts with a single post. This is yours. Make it great.
-draft: true
+draft: false
 ---
 
 The Pomodoro technique is a time management method that can help you be more productive and focused. It's a simple approach that breaks your work into 25-minute intervals, separated by short breaks. The Pomodoro technique was developed by Francesco Cirillo in the 1980s, and it's named after the tomato-shaped kitchen timer he used to keep track of his work intervals.
