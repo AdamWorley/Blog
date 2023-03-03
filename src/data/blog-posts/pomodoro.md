@@ -17,17 +17,35 @@ Changing your habits to use the Pomodoro technique can take a bit of time and so
 
 ## Here's how it works
 
-Choose a task you want to work on.
+The technique is simple and boils down to the following...
 
-Set your timer for 25 minutes and work on the task until the timer goes off. During this time, try to avoid distractions and stay focused on the task at hand. Towards the end of the focus block (~last 5 mins) make sure to review what has been done in the block as this helps to tie the block off so you're ready to have a break!
+### Choose a task you want to work on.
 
-Take a short break (usually 5 minutes) to recharge and refresh. It's often recommended to intentionally remove yourself from your 'work' space, so this is a good time to step away from your work, stretch, grab a drink, or do something else to help you relax and recharge. 
+It can be any task but ideally you'll try and scope it down to an amount of work you can do in about 20 minutes.
 
-Repeat the process (work for 25 minutes, take a break) for a total of four Pomodoros. After four Pomodoros, take a longer break (usually 15-20 minutes) to recharge and refocus.
+### Set your work timer (usually 25 minutes)
+
+And work on the task until the timer goes off. During this time, try to avoid distractions and stay focused on the task at hand. Towards the end of the focus block (~last 5 mins) make sure to review what has been done in the block as this helps to tie the block off so you're ready to have a break!
+
+### Take a short break (usually 5 minutes) 
+
+to recharge and refresh. It's often recommended to intentionally remove yourself from your 'work' space, so this is a good time to step away from your work, stretch, grab a drink, or do something else to help you relax and recharge. 
+
+### Repeat the above (~4 times in total)
+
+Repeat the above work and break blocks (work for 25 minutes, take a break) for a total of four Pomodoros it's time to... 
+
+### Take a Long break! (usually 15-20 minutes)
+
+After four Pomodoros, take a longer break to recharge and refocus.
+
+After your long break pick up from the top by alternating between work and short breaks as before.
+
+There's no set amount of pomodoros you need to complete and you can stop at any point so don't feel like you MUST complete an entire set of 4 works and 4 short breaks plus a long break before being 'done'. Remember this technique it to help you stay focused during your work periods and is not supposed to take over your day.
+
+## Advice
 
 The Pomodoro technique is flexible and can be tailored to your individual needs and preferences. You can adjust the work and break intervals to suit your own rhythm, and you can also adjust the number of Pomodoros you do before taking a longer break. Some people find that the Pomodoro technique helps them stay focused and avoid procrastination, while others find it to be a helpful way to structure their workday and get more done.
-
-## Friendly Advice
 
 Nothing about this technique is all that strict so if you do find yourself missing a break or forgetting to start your next work timer don't worry about it! Just carry on from where you left off.
 
