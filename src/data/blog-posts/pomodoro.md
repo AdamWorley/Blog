@@ -13,7 +13,7 @@ In this post, we'll explore how the Pomodoro technique works and how you can use
 
 To use the Pomodoro technique, you'll need a timer this can be as simple as a kitchen timer, a stopwatch, or a timer app on your phone will do the trick. You can also use something a little more specific like the web based [marinara timer](https://www.marinaratimer.com) or an app such as [forest](https://www.forestapp.cc/) as they provide a nicer interface and in the case of forest can gamify using Pomodoros which can help keep you motivated to use them.
 
-Changing your habits to use the Pomodoro technique can take a bit of time and so it can be handy to track your Pomodoros in a notebook or a to-do list app if you're not using a specific pomodoro tool. 
+Changing your habits to use the Pomodoro technique can take a bit of time and so it can be handy to track your Pomodoros in a notebook or a to-do list app if you're not using a specific pomodoro tool.
 
 ## Here's how it works
 
@@ -21,7 +21,7 @@ Choose a task you want to work on.
 
 Set your timer for 25 minutes and work on the task until the timer goes off. During this time, try to avoid distractions and stay focused on the task at hand. Towards the end of the focus block (~last 5 mins) make sure to review what has been done in the block as this helps to tie the block off so you're ready to have a break!
 
-Take a short break (usually 5 minutes) to recharge and refresh. It's often recommended to intnetionally remove yourself from your 'work' space, so this is a good time to step away from your work, stretch, grab a drink, or do something else to help you relax and recharge. 
+Take a short break (usually 5 minutes) to recharge and refresh. It's often recommended to intentionally remove yourself from your 'work' space, so this is a good time to step away from your work, stretch, grab a drink, or do something else to help you relax and recharge. 
 
 Repeat the process (work for 25 minutes, take a break) for a total of four Pomodoros. After four Pomodoros, take a longer break (usually 15-20 minutes) to recharge and refocus.
 
