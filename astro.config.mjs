@@ -1,22 +1,22 @@
-import { defineConfig } from 'astro/config'
-import svelte from '@astrojs/svelte'
-import mdx from '@astrojs/mdx'
+import mdx from "@astrojs/mdx";
+import svelte from "@astrojs/svelte";
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog-5bj.pages.dev/',
+  site: "https://blog.adamworley.com/",
   integrations: [mdx(), svelte()],
   markdown: {
     shikiConfig: {
-      theme: 'nord',
+      theme: "nord",
     },
     rehypePlugins: [
       [
-        'rehype-external-links',
+        "rehype-external-links",
         {
-          target: '_blank',
+          target: "_blank",
         },
       ],
     ],
   },
-})
+});

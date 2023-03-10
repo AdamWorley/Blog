@@ -9,7 +9,7 @@ const posts = Object.values(postImportResult);
 export const get = () =>
   rss({
     title: "Wordley Blog",
-    description: "A humble Astronaut’s guide to the stars",
+    description: "A blog about soft skills",
     site: import.meta.env.SITE,
     stylesheet: "/rss/styles.xsl",
     items: posts
