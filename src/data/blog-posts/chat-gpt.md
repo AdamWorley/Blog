@@ -7,7 +7,7 @@ draft: true
 
 Unless you have been living under a rock you have almost certainly come across an article or news headline about [OpenAIs ChatGPT](https://chat.openai.com/chat) or one of it's competitors [Googles Bard](https://bard.google.com/) or [Microsoft's Bing chat bot](https://www.bing.com/) (Only available through Edge at the time of writing).
 
-![Mugatu from zoolander saying how hot ChatGPT it right now](assets/blog/chat-gpt-hot-right-now.png)
+![Mugatu from zoolander saying how hot ChatGPT it right now](/assets/blog/chat-gpt-hot-right-now.png)
 
 The first one out the door and arguably the most mature and useful is  and so is the one that I will mainly be talking about, the same principals apply generally to the other tools as well.
 
@@ -24,19 +24,19 @@ Being a fairly general language AI it can be used for all sorts of things;
 
 ### if you're a content creator it can provide content ideas
 
-![ChatGpt responding to blog post ideas related to soft skills](assets/blog/content-ideas.png)
+![ChatGpt responding to blog post ideas related to soft skills](/assets/blog/content-ideas.png)
 
 *I may use some of these*
 
 ### help with writing code
 
-![ChatGpt explaining what the regex "^(\d+)[\/](\d+)$"" does](assets/blog/regex-help.png)
+![ChatGpt explaining what the regex "^(\d+)[\/](\d+)$"" does](/assets/blog/regex-help.png)
 
 There are other tools more specialised for this such as [GitHub Copilot](https://github.com/features/copilot/) or more recently [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/).
 
 ### A rubber duck or something to bounce ideas off of
 
-![Chat GTP saying that a blog post about AI is a good idea](assets/blog/rubber-duck.png)
+![Chat GTP saying that a blog post about AI is a good idea](/assets/blog/rubber-duck.png)
 
 ## Is this the Future?
 
