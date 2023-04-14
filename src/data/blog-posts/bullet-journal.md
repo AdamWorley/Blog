@@ -31,7 +31,9 @@ Finally, create a daily log. This is where you'll record your daily tasks, appoi
 
 If any of that sounds unclear, you can follow this video guide on how to get started with your bullet journal.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fm15cmYU0IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="youtube">
+<iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/fm15cmYU0IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ### Recommended Kit
 
@@ -49,7 +51,9 @@ One of the best things about bullet journaling is that you can customize it to f
 
 To customize your bullet journal, start by identifying the areas of your life that you want to focus on. Do you want to track your exercise routine? Are you trying to develop a daily meditation practice? Once you have a list of areas you want to focus on, you can create sections in your bullet journal to track your progress. It can be useful to track habits in you daily log by using a simple key and marking off your habits as you go.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K3KfPJRKPFw" title="Super Simple Habit Tracker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="youtube">
+<iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/K3KfPJRKPFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 You can also get creative with your layouts and designs. Use different colors, fonts, and symbols to make your bullet journal visually appealing. You can create doodles, sketches, and hand-lettering to make your pages unique.
 
