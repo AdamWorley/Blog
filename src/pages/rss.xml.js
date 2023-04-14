@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
 import getPostData from "../utils/getPostData";
 
-const postImportResult = import.meta.glob("../data/blog-posts/**/*.md", {
+const postImportResult = import.meta.glob("../data/blog-posts/**/*.{md,mdx}", {
   eager: true,
 });
 const posts = Object.values(postImportResult);
