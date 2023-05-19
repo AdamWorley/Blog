@@ -58,7 +58,7 @@ Without the ability to see into the future it's nearly impossible to say for sur
 
 It is safe to say there has never been a technological revolution that hasn't drummed up some scaremongering or fear with it's introduction, for example; [email](https://edition.cnn.com/2005/WORLD/europe/04/22/text.iq/), [light bulbs](https://web.archive.org/web/20220701045959/https://sloanreview.mit.edu/article/learning-from-automation-anxiety-of-the-past/), [books](https://www.gutenberg.org/files/1636/1636-h/1636-h.htm#2H_4_0002).
 
-## I for one embrace our AI ~~overlords~~ partners
+## I for one embrace our AI o̶v̶e̶r̶l̶o̶r̶d̶s̶ partners
 
 In conclusion, ChatGPT and other AI tools have undoubtedly made a splash in the world of technology and communication. These language models, like ChatGPT, have shown great promise in their ability to generate coherent and contextually appropriate responses, making them valuable assets for various tasks.
 
