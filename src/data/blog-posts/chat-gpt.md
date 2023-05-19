@@ -52,7 +52,9 @@ There has been some concerning reports around Bing chat becoming [*unhinged*](ht
 
 There's also concern around the risk of job loses, after all why would you need a solicitor or lawyer to pen a legal document for you when Chat-GPT can [pass the bar exam](https://www.abajournal.com/web/article/latest-version-of-chatgpt-aces-the-bar-exam-with-score-in-90th-percentile) with a score higher than most humans or higher teams of programmers when you [can draw an idea on a napkin and ask for what you want](https://www.youtube.com/live/outcGtbnMuQ?feature=share&t=971).
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/outcGtbnMuQ?start=973"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Without the ability to see into the future it's nearly impossible to say for sure but the odds are looking pretty good for us humans for some time to come, with us most likely adopting these AI tools in the same way we use calculators to perform maths calculations we would struggle to do in our heads (or even if you can't be bothered), or the way we use mobile phones and emails to communicate instead of having to use smoke signals or someone who can run fast to pass messages around and the list really goes on.
 
