@@ -2,7 +2,7 @@
 title: "EQ vs IQ: Unleashing the Power of Emotional Intelligence"
 publishDate: 23 June 2023
 description: EQ (Emotional Quotient) and IQ (Intelligence Quotient) represent different facets of intelligence, with EQ focusing on emotional intelligence and IQ emphasizing cognitive abilities, and understanding the importance of developing both can lead to personal and professional success.
-draft: true
+draft: false
 ---
 
 In the world of intelligence, there are two terms that often spark lively discussions: IQ (Intelligence Quotient) and the less talked about EQ (Emotional Quotient). While IQ has been the traditional measure of smarts, EQ has emerged as a game-changer, revolutionizing how we understand success and happiness. In this blog post, we'll dive into the differences between EQ and IQ, explore their unique strengths, and discover why EQ is becoming a key player in personal and professional growth.
