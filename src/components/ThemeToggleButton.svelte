@@ -1,33 +1,24 @@
 <script>
-  const rootEl =
-    typeof document !== "undefined" ? document.documentElement : null;
+  import { settings } from '../store';
 
-  let darkModeEnabled = false;
+  let darkModeEnabled = $settings.darkModeEnabled === 'true';
+  
+  const rootEl = typeof document !== "undefined" 
+    ? document.documentElement 
+    : null;
 
-  if (
-    typeof localStorage !== "undefined" &&
-    localStorage.getItem("darkModeEnabled")
-  ) {
-    darkModeEnabled = localStorage.getItem("darkModeEnabled") === "true";
-  } else if (
-    typeof window !== "undefined" &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  ) {
-    darkModeEnabled = true;
-  }
+  $: if (rootEl && !darkModeEnabled) {
+     rootEl.classList.remove("theme-dark");
+   } else if (rootEl && darkModeEnabled) {
+     rootEl.classList.add("theme-dark");
+   }
 
   function handleChange(event) {
     darkModeEnabled = event.target.checked;
-    localStorage.setItem("darkModeEnabled", darkModeEnabled);
+    settings.setKey('darkModeEnabled', event.target.checked);
   }
 
-  $: if (rootEl && !darkModeEnabled) {
-    rootEl.classList.remove("theme-dark");
-  } else if (rootEl && darkModeEnabled) {
-    rootEl.classList.add("theme-dark");
-  }
 </script>
-
 <div class="theme-toggle">
   <label class="switch">
     <input
