@@ -34,7 +34,7 @@ const permalink = `${Astro.site.href}${slug}`;
       <Content />
     </article>
     <hr />
-<Comments client:load />
+    <Comments client:only="svelte" />
     <hr />
     <Bio />
   </div>

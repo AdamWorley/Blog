@@ -7,7 +7,16 @@
   --font-family-sans: "Fira Sans", sans-serif;
 }
 
-:root.theme-dark {
+[data-theme="light"] {
+  --background-body: #fff;
+  --text-main: #36393b;
+  --text-secondary: #6b6f72;
+  --primary-color: #f6ad55;
+  --font-family-serif: Merriweather, serif;
+  --font-family-sans: "Fira Sans", sans-serif;
+}
+
+[data-theme="dark"] {
   --background-body: #141821;
   --text-main: #fff;
   --text-secondary: #ccc;

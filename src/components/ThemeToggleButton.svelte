@@ -2,19 +2,18 @@
   import { settings } from '../store';
 
   let darkModeEnabled = $settings.darkModeEnabled === 'true';
-  
+
   const rootEl = typeof document !== "undefined" 
     ? document.documentElement 
     : null;
 
-  $: if (rootEl && !darkModeEnabled) {
-     rootEl.classList.remove("theme-dark");
-   } else if (rootEl && darkModeEnabled) {
-     rootEl.classList.add("theme-dark");
+  $: if (rootEl) {
+    rootEl.setAttribute("data-theme", darkModeEnabled ? "dark" : "light");
    }
 
   function handleChange(event) {
     darkModeEnabled = event.target.checked;
+    rootEl.setAttribute("data-theme", darkModeEnabled ? "dark" : "light");
     settings.setKey('darkModeEnabled', event.target.checked);
   }
 

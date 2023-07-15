@@ -1,21 +1,20 @@
-
-<script>
+<script lang="ts">
   import Giscus from '@giscus/svelte';
-  import { settings } from '../store.ts';
+  import { settings } from '../store';
 </script>
 
-<h1>Comments</h1>
-<Giscus
-id="comments"
-repo="AdamWorley/Blog"
-repoId="R_kgDOIcQuRw"
-category="Announcements"
-categoryId="DIC_kwDOIcQuR84CXvRW"
-mapping="pathname"
-term="Welcome to giscus!"
-reactionsEnabled="1"
-emitMetadata="0"
-inputPosition="top"
-theme={$settings.darkModeEnabled ? "dark_protanopia" : "light"}
-lang="en"
-loading="lazy"/>
+<div>
+  <Giscus
+  id="comments"
+  repo="AdamWorley/Blog"
+  repoId="R_kgDOIcQuRw"
+  category="Blog Post Comments"
+  categoryId="DIC_kwDOIcQuR84CXxT7"
+  mapping="pathname"
+  reactionsEnabled='1'
+  emitMetadata="0"
+  inputPosition="top"
+  theme={$settings.darkModeEnabled == "true" ? "dark_protanopia" : "light"}
+  lang="en"
+  loading="lazy"/>
+</div>

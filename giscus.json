@@ -1,0 +1,9 @@
+{
+    "defaultCommentOrder": "newest",
+    "originsRegex": [
+        "https://blog.adamworley.com/*",
+        "https://*.blog-5bj.pages.dev/*",
+        "http://localhost:[0-9]+",
+        "http://127.0.0.1:[0-9]+"
+      ]
+}

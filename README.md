@@ -1,29 +1,6 @@
-# [Astro](https://astro.build) Blog Template
+# [Wordley Blog](https://blog.adamworley.com)
 
-[![Screenshot](screenshot.png)](https://astro-blog-template.netlify.app/)
-
-## 👉 Check out the ✨ [Live Demo](https://astro-blog-template.netlify.app/) ✨
-
-## 👩‍🚀 Getting Started
-
-### Locally
-
-```
-npm init astro -- --template Charca/astro-blog-template
-```
-
-### On StackBlitz
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/charca/astro-blog-template)
-
-## ✨ Features:
-
-- ✅ Astro 1.0
-- ✅ Dark Mode
-- ✅ Full Markdown support
-- ✅ SEO-friendly setup with canonical URLs and OpenGraph data
-- ✅ RSS 2.0 generation
-- ✅ Sitemap.xml generation
+Personal blog written using Astro and svelte
 
 ## 🚀 Project Structure
 
@@ -59,6 +36,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
 
-## 👀 Want to learn more?
+## Add blog post
 
-Feel free to check [Astro's documentation](https://github.com/withastro/astro) or jump into Astro's [Discord server](https://astro.build/chat).
+To add a blog post add a new `.md` file into data/blog-posts.
+
+Include the front-matter (see the `markdown-test.md` file for an example).
+
+Include `draft: true` to the front-matter so that the blog post will not shown in the list of blog posts or the RSS feed.
+
+## RSS feed
+
+The blog includes an rss feed at <https://blog.adamworley.com/rss.xml>
