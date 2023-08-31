@@ -10,15 +10,15 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^0.8.3",
-    "@astrojs/svelte": "^1.0.0",
-    "astro": "^1.0.3",
-    "astro-vscode": "^2.0.18",
-    "rehype-external-links": "^2.0.0",
-    "svelte": "^3.55.0"
+    "@astrojs/mdx": "^1.0.0",
+    "@astrojs/svelte": "^4.0.0",
+    "astro": "^3.0.4",
+    "astro-vscode": "^2.3.1",
+    "rehype-external-links": "^2.1.0",
+    "svelte": "^4.2.0"
   },
   "dependencies": {
-    "@astrojs/rss": "^1.0.3",
+    "@astrojs/rss": "^3.0.0",
     "@giscus/svelte": "^2.3.0",
     "@nanostores/persistent": "^0.9.0",
     "reading-time": "^1.5.0"
