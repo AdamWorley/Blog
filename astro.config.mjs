@@ -1,6 +1,7 @@
 import mdx from "@astrojs/mdx";
 import svelte from "@astrojs/svelte";
 import { defineConfig } from "astro/config";
+import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,12 +12,10 @@ export default defineConfig({
       theme: "nord",
     },
     rehypePlugins: [
-      [
-        "rehype-external-links",
-        {
-          target: "_blank",
-        },
-      ],
+      [rehypeExternalLinks,
+      {
+        target: "_blank",
+      }],
     ],
   },
 });
