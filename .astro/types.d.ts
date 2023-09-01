@@ -184,98 +184,98 @@ declare module 'astro:content' {
   slug: "action-priority";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "being-short.md": {
 	id: "being-short.md";
   slug: "being-short";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "belbin.md": {
 	id: "belbin.md";
   slug: "belbin";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "bullet-journal.md": {
 	id: "bullet-journal.md";
   slug: "bullet-journal";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "chat-gpt.md": {
 	id: "chat-gpt.md";
   slug: "chat-gpt";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "eq-vs-iq.md": {
 	id: "eq-vs-iq.md";
   slug: "eq-vs-iq";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "markdown-test.md": {
 	id: "markdown-test.md";
   slug: "markdown-test";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "no-i-in-team copy.md": {
 	id: "no-i-in-team copy.md";
   slug: "no-i-in-team-copy";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "norman.md": {
 	id: "norman.md";
   slug: "norman";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "notification-overload.md": {
 	id: "notification-overload.md";
   slug: "notification-overload";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "pomodoro.md": {
 	id: "pomodoro.md";
   slug: "pomodoro";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "spaced-repetition-learning.md": {
 	id: "spaced-repetition-learning.md";
   slug: "spaced-repetition-learning";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "speak-their-language.md": {
 	id: "speak-their-language.md";
   slug: "speak-their-language";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "urgent-vs-important.md": {
 	id: "urgent-vs-important.md";
   slug: "urgent-vs-important";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 
