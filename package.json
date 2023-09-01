@@ -1,6 +1,6 @@
 {
-  "name": "astro-blog-template",
-  "version": "0.0.1",
+  "name": "wordley-blog",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -21,6 +21,7 @@
     "@astrojs/rss": "^3.0.0",
     "@giscus/svelte": "^2.3.0",
     "@nanostores/persistent": "^0.9.1",
+    "mdast-util-to-string": "^4.0.0",
     "reading-time": "^1.5.0"
   }
 }

@@ -1,21 +1,21 @@
 ---
+import { getCollection } from "astro:content";
 import Bio from "../../components/Bio.astro";
+import Comments from "../../components/Comments.svelte";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import getPostData from "../../utils/getPostData";
-import Comments from '../../components/Comments.svelte';
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob("../../data/blog-posts/*.{md,mdx}");
-  return posts.map((p) => ({
-    params: { slug: p.file.split("/").pop().split(".").shift() },
-    props: { post: p },
+  const blog = await getCollection("blog");
+  return blog.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 
-const { Content, frontmatter } = Astro.props.post;
-const { title, description, publishDate } = frontmatter;
-const { slug, readingTime } = getPostData(Astro.props.post);
-const permalink = `${Astro.site.href}${slug}`;
+const { entry } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await entry.render();
+const { title, description, publishDate } = remarkPluginFrontmatter;
+const permalink = `${Astro.site.href}${entry.slug}`;
 ---
 
 <BaseLayout
@@ -25,12 +25,12 @@ const permalink = `${Astro.site.href}${slug}`;
   current="blog"
 >
   <header>
-    <p>{publishDate} ~ {readingTime}</p>
+    <p>{publishDate} ~ {remarkPluginFrontmatter.minutesRead}</p>
     <h1>{title}</h1>
     <hr />
   </header>
   <div class="container">
-    <article class="content">      
+    <article class="content">
       <Content />
     </article>
     <hr />
