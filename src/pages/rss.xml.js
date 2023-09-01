@@ -1,7 +1,6 @@
 import rss from "@astrojs/rss";
-import getPostData from "../utils/getPostData";
 
-const postImportResult = import.meta.glob("../data/blog-posts/**/*.{md,mdx}", {
+const postImportResult = import.meta.glob("../content/blog/**/*.{md,mdx}", {
   eager: true,
 });
 const posts = Object.values(postImportResult);
@@ -15,7 +14,7 @@ export const get = () =>
     items: posts
       .filter((post) => !post.frontmatter.draft)
       .map((post) => ({
-        link: `blog/${getPostData(post).slug}`,
+        link: `blog/${post.file.split("/").pop().split(".").shift()}`,
         title: post.frontmatter.title,
         pubDate: post.frontmatter.publishDate,
         description: post.frontmatter.description,
