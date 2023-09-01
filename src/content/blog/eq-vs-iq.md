@@ -27,7 +27,7 @@ While IQ may determine cognitive abilities, it's EQ that often determines how we
 
 4. Effective Communication: EQ helps us become better communicators by understanding non-verbal cues, actively listening, and responding empathetically. This skill is crucial in personal relationships and professional settings such as negotiations, sales, and customer service.
 
-![eq+iq=success written on a chalk board](/assets/blog/eq+iq.png)
+![eq+iq=success written on a chalk board](../../assets/images/blog/eq+iq.png)
 
 ## Striking a Balance
 
@@ -42,6 +42,6 @@ As the saying goes
 
 is probably the best representation of this idea, if you have the inter-personal skills and the ability to connect with others you stand a good chance of getting further in work and in life!
 
-![Spiderman pointing at other spidermen meme](/assets/blog/spidermanMeme.png)
+![Spiderman pointing at other spidermen meme](../../assets/images/blog/spidermanMeme.png)
 
 ###### I couldn't bring myself to use a cheesy stock photo, so here's a bunch of spidermen as a team

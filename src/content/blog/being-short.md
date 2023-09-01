@@ -25,7 +25,7 @@ Doing this means that everyone is on the same page as you have now hinted the me
 
 This one might be a pet peeve of mine but *please* **avoid just saying 'hi'** or some other greeting when sending a message.
 
-![A crossed out image of a waving hand](/assets/blog/no-hello.png)
+![A crossed out image of a waving hand](../../assets/images/blog/no-hello.png)
 
 Unlike a phone call or a face to face chat, textual chats are asynchronous; someone might see your text 2 seconds after you have sent it, or they might not see it for a few hours, and so requiring the person receiving the message to acknowledge and respond will then usually result in them having to wait for another response to know what the chat is about as you have gone about the rest of your day waiting for them to respond.
 
