@@ -1,6 +1,6 @@
 ---
 title: "EQ vs IQ: Unleashing the Power of Emotional Intelligence"
-publishDate: 23 June 2023
+publishDate: "2023-06-23"
 description: EQ (Emotional Quotient) and IQ (Intelligence Quotient) represent different facets of intelligence, with EQ focusing on emotional intelligence and IQ emphasizing cognitive abilities, and understanding the importance of developing both can lead to personal and professional success.
 draft: false
 ---

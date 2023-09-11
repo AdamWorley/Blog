@@ -1,6 +1,6 @@
 ---
 title: "Being (too) Short - How to improve communicating by text"
-publishDate: 23 June 2023
+publishDate: "2023-06-23"
 description: Avoid being short and improve your ability to communicate (Everyone else will thank you).
 draft: false
 ---

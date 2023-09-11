@@ -3,10 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = 'Wordley Blog';
 const description = 'Hopefully not just a bunch of waffle.';
-const permalink = Astro.site.href;
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink}>
+<BaseLayout title={title} description={description}>
   <div class="home-container">
     <div class="home-copy">
       <h1>Welcome to the <a href="/blog">Wordley Blog</a></h1>

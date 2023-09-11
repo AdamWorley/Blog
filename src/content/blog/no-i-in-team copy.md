@@ -1,6 +1,6 @@
 ---
 title: No 'I' in 'Team'
-publishDate: 01 Dec 2021
+publishDate: "2023-06-23"
 description: A sample page with the most common elements of an article, including headings, paragraphs, lists, and images. Use it as a starting point for applying your own styles.
 draft: true
 ---

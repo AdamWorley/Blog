@@ -15,13 +15,11 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await entry.render();
 const { title, description, publishDate } = remarkPluginFrontmatter;
-const permalink = `${Astro.site.href}${entry.slug}`;
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  permalink={permalink}
   current="blog"
 >
   <header>

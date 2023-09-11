@@ -1,6 +1,6 @@
 ---
 title: "Forming, Storming, Norming and Performing"
-publishDate: 23 June 2023
+publishDate: "2023-06-23"
 description: The 4 stages to an awesome team
 draft: true
 ---
