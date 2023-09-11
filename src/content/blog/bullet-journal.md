@@ -1,6 +1,6 @@
 ---
 title: Bullet Journal
-publishDate: 31 March 2023
+publishDate: "2023-03-31"
 description: Bullet Journalling (BuJo) can be a great way to manage your time by planning for long term, short term and daily tasks
 draft: false
 ---

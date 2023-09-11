@@ -1,6 +1,6 @@
 ---
 title: Chat GPT (And other AI tools)
-publishDate: 19 May 2023
+publishDate: "2023-05-19"
 description: "Large Language Models (LLMs), like ChatGPT, are AI that can learn to perform many kinds of tasks, like generating text, translating languages, and writing creative content. They are trained on massive datasets of text and code. LLMs have the potential to revolutionize the way we interact with computers.
 
 ChatGPT is a specific LLM that was developed by OpenAI. It is still under development, but it has learned to perform many kinds of tasks, including generating text, translating languages, writing different kinds of creative content, and answering your questions in an informative way."

@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Bio from "../../components/Bio.astro";
 import Comments from "../../components/Comments.svelte";
+import FormattedDate from '../../components/FormattedDate.astro';
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
@@ -14,18 +15,16 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content, remarkPluginFrontmatter } = await entry.render();
-const { title, description, publishDate } = remarkPluginFrontmatter;
-const permalink = `${Astro.site.href}${entry.slug}`;
+const { title, description } = remarkPluginFrontmatter;
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  permalink={permalink}
   current="blog"
 >
   <header>
-    <p>{publishDate} ~ {remarkPluginFrontmatter.minutesRead}</p>
+    <p><FormattedDate date={entry.data.publishDate} /> ~ {remarkPluginFrontmatter.minutesRead}</p>
     <h1>{title}</h1>
     <hr />
   </header>

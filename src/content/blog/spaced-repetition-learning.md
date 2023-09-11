@@ -1,6 +1,6 @@
 ---
 title: Spaced repetition learning
-publishDate: 13th Jan 2023
+publishDate: "2023-06-23"
 description: Spaced repetition is a powerful tool for improving long-term retention of knowledge and should be considered by anyone looking to maximize their learning potential
 draft: true
 ---

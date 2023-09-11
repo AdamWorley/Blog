@@ -1,6 +1,6 @@
 ---
 title: Pomodoro Technique
-publishDate: 3 March 2023
+publishDate: "2023-03-03"
 description: The Pomodoro technique is a time management method that can help you be more productive and focused.
 draft: false
 ---
