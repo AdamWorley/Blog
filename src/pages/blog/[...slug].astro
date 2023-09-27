@@ -23,9 +23,9 @@ const { title, description } = remarkPluginFrontmatter;
   description={description}
   current="blog"
 >
-  <header>
+  <header transition:name={entry.slug}>
     <p><FormattedDate date={entry.data.publishDate} /> ~ {remarkPluginFrontmatter.minutesRead}</p>
-    <h1>{title}</h1>
+    <h1 >{title}</h1>
     <hr />
   </header>
   <div class="container">

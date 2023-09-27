@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { ViewTransitions } from 'astro:transitions';
 
 export interface Props {
   title: string;
@@ -16,6 +17,7 @@ const { title, description, current } = Astro.props;
   <BaseHead title={title} description={description} />
 </head>
 <body>
+  <ViewTransitions/>
   <div class="layout">
     <Header current={current} />
 
@@ -23,7 +25,7 @@ const { title, description, current } = Astro.props;
       <slot />
     </main>
 
-    <Footer />
+    <Footer transition:name="footer" />
   </div>
 </body>
 </html>
